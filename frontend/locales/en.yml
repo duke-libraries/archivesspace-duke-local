@@ -1,0 +1,188 @@
+en:
+  welcome:
+    heading: ArchivesSpace - Rubenstein Staff View
+    message: Welcome. Please sign in and stay awhile.
+    message_logged_in: Welcome. You're signed in.
+
+  search_results:
+    filter:
+      acquisition_type: Acquisition Type
+      accession_id_0_u_ustr: Accession Part 1
+      enum_1_enum_s: Primary Collector
+      enum_2_enum_s: Research Center
+      enum_3_enum_s: New/Addition
+      finding_aid_status: Finding Aid Status
+      ead_id: EADID
+
+  advanced_search:
+    text:
+      agents: Names
+      created_by: Created by
+      ead_id: EADID
+      finding_aid_status: Finding Aid Status
+      four_part_id: Four Part ID
+      last_modified_by: Last_modified_by
+      processing_status: Processing Status
+      user_defined_integer_1: Order Number (Aleph)
+    date:
+      accession_date: Accession date
+      date_begin: Begin date
+      date_end: End date
+      event_begin: Event Begin
+      event_end: Event End 
+    boolean:
+      access_restrictions: Access Restrictions?
+      has_external_documents: External Documents?
+      has_rights_statements: Rights Statements?
+      restrictions_apply: Restrictions Apply?
+      use_restrictions: Use Restrictions?
+      user_defined_boolean_1: Electronic Media Present?
+      user_defined_boolean_2: Ready for TS?
+    enum:
+      accession_acquisition_type: Acquisition Type
+      collection_management_processing_priority: Desired Processing Level
+      collection_management_processing_status: Processing Status
+      event_event_type: Event Type
+      extent_extent_type: Extent Type
+      linked_agent_role: Linked Agent Role
+      resource_finding_aid_status: Finding Aid Status
+      user_defined_enum_1: Primary Collector Name
+      user_defined_enum_2: Research Center
+      user_defined_enum_3: New/Addition?
+
+  collection_management: &collection_management_attributes
+    processing_plan: Notes for Processor
+    processing_plan_tooltip: |
+        <p>Proposed processing plan, including info about value (high/medium/low), what to do with discards, if portions of collection require more intense processing, and anything else you want your processor to know (about the collection).</p>
+        <p>Note: Imported legacy accessions data may contain information about actions taken or to be taken with materials.</p>
+        <p>Examples:</p>
+        <ul>
+        <li>Arrange subject files alphabetically and project files chronologically.</li>
+        <li>Margaret's students will create descriptive records.</li>
+        <li>Project manager will review, output, and load the encoded finding aid.</li>
+        <li>Discard duplicates</li>
+        </ul>
+    processing_priority: Desired Processing Level
+    processing_priority_tooltip: |
+        <p>Level of processing that should be applied to this collection. If portions of the collection require different levels of process, assign the level that applies to the bulk of the collection, but provide more detail in the Processing Plan section.</p>
+        <p>This field may contain legacy data on Research Value from migrated accession records (e.g. High research value, Medium research value). Ignore this data.</p>
+    processing_started_date: Processing Started Date
+    processing_status: Processing Status
+    processing_status_tooltip: |
+        <p>For indicating the status and level of processing applied to the materials.</p>
+        <p>Examples:</p>
+        <ul>
+        <li>New</li>
+        <li>New (unprocessed or in route)</li>
+        <li>Level 1 - Accessioning</li>
+        <li>Level 2 - Core Level</li>
+        <li>Level 3 - Folder Level</li>
+        <li>Level 4 - Item Level</li>
+        </ul>
+
+  resource:
+    id_0_tooltip: |
+        <p>REQUIRED FIELD. The identification number assigned to each discrete Resource within a Repository.</p>
+        <p>See DACS 2.1.3</p>
+        <p>Examples:</p>
+        <ul>
+        <li>RL.10001 (Two elements "RL" + "10001")</li>
+        <li>UA.01.01.0001 (four elements for UA record groups)</li>
+        </ul>
+    ead_id_tooltip: |
+        <p>The identifier for the EAD generated from the resource description, typically a file name without the .xml extension. Needs to be unique within the repository context. The EADID forms the last part of the finding aid URL.</p>
+        <p>The EADID is typically in the format lastnamefirstname.xml or organizationname.xml. Use abbreviations sparingly.</p>
+    ead_location_tooltip: |
+        <p>The URL for the published EAD file. Please include the trailing slash.</p>
+    ead_location_inline_help: http://library.duke.edu/rubenstein/findingaids/[eadid]/
+    finding_aid_title_tooltip: |
+        <p>The title for the finding aid associated with this Resource.</p>
+        <p>Include collection inclusive dates and capitalize words like 'papers' and 'records' here.</p>
+        <p>Examples:</p>
+        <ul>
+        <li>Guide to the Doris Duke Photograph Collection, 1870-2006</li>
+        <li>Guide to the J. Walter Thompson Company. Newsletter Collection, 1910-2005</li>
+        <li>Guide to the Divinity School Records, circa 1920-2005</li>
+        </ul>
+
+  accession:
+    id_0: Identifier
+    #added translation below for warning messages when Accession Part 2 is missing
+    id_1: Accession Part 2
+    disposition: Disposition
+    disposition_tooltip: |
+      <p>A note about what should be done with discards or duplicates, or a note to describe how a particular accession may have been assigned to different resources.</p>
+    disposition_inline_help: What should be done with discards or duplicates?
+    user_defined: 
+      boolean_1: Electronic Media Present?
+      boolean_1_tooltip: |
+        <p>Does the accession contain electronic media?</p>
+      boolean_2: Ready for TS?
+      boolean_3: ignore
+      integer_1: Order Number (Aleph)
+      integer_2: OCLC Number
+      integer_3: ignore
+      real_1: Appraisal Value
+      real_1_tooltip: |
+          <p>OPTIONAL: Record appraisal value of accession if known.</p>
+      real_2: ignore
+      real_3: ignore
+      string_1: ignore
+      string_1_tooltip: |
+          <p>Enter collector initials in all caps (e.g. JAA)</p>
+      string_2: ignore
+      string_2_tooltip: |
+          <p>Enter "New" or "Addition"</p>
+      string_3: Accessioner Initials
+      string_3_tooltip: |
+          <p>Enter accessioner initials in all caps (e.g. JAA)</p>
+      string_4: ignore
+      text_1: Special Media Formats
+      text_1_tooltip: |
+        <p>List any special media formats included in the accession (A/V items, photographs, CDs, DVDs, etc.)</p>
+      text_2: Location at Accessioning
+      text_2_tooltip: | 
+        <p>FOR MIGRATED RECORDS ONLY.</p>
+      text_3: Source Contact Information
+      text_3_tooltip: | 
+        <p>FOR MIGRATED RECORDS ONLY.</p>
+      text_4: ignore
+      text_5: ignore
+      date_1: Arrival Date
+      date_1_tooltip: |
+          <p>Enter the date that this accession arrived at Duke?</p>
+      date_1_inline_help: e.g. YYYY-MM-DD
+      date_2: ignore
+      date_2_inline_help: e.g. YYYY-MM-DD
+      date_3: ignore
+      date_3_inline_help: e.g. YYYY-MM-DD
+      enum_1: Primary Collector Name
+      enum_2: Research Center
+      enum_3: New or Addition?
+      enum_4: ignore
+      _singular: Duke Custom Fields
+      _plural: Duke Custom Fields
+
+  user_defined:
+    _singular: Duke Custom Fields
+    _plural: Duke Custom Fields
+    enum_1: Primary Collector Name
+    enum_2: Research Center
+    enum_3: New or Addition?
+    date_1: Arrival Date
+    boolean_1: Electronic Media Present?
+    boolean_1_tooltip: |
+      <p>Does the accession contain electronic media?</p>
+    boolean_2: Ready for TS?
+    text_1: Special Media Formats
+    text_1_tooltip: |
+      <p>List any special media formats included in the accession (A/V items, photographs, CDs, DVDs, etc.)</p>
+    text_2: Location at Accessioning
+    text_2_tooltip: | 
+      <p>FOR MIGRATED RECORDS ONLY.</p>
+    integer_1: Order Number (Aleph)
+    integer_2: OCLC Number
+    real_1: Appraisal Value
+    real_1_tooltip: |
+        <p>OPTIONAL: Record appraisal value of accession if known.</p>
+
