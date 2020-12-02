@@ -21,7 +21,7 @@ class SearchResultData
  end
  
  def self.DIGITAL_OBJECT_FACETS
-   ["publish", "digital_object_type"]
+   ["publish", "digital_object_type", "file_version_use_statement"]
  end
  
 end
