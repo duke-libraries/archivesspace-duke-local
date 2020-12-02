@@ -9,7 +9,7 @@ class SearchResultData
 
 # this changes what facets are requested for searches. Display order follows the order in the array. 
  def self.ACCESSION_FACETS
-   ["accession_date_year","enum_3_enum_s","enum_1_enum_s","acquisition_type"]
+   ["enum_2_enum_s", "enum_3_enum_s","enum_1_enum_s","acquisition_type", "boolean_1_u_ubool", "boolean_2_u_ubool", "accession_date_year", ]
  end
 
  def self.RESOURCE_FACETS
