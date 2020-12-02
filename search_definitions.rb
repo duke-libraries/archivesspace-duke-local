@@ -39,4 +39,3 @@ AdvancedSearch.define_field(:name => 'user_defined_enum_1', :type => :enum, :vis
 AdvancedSearch.define_field(:name => 'user_defined_enum_2', :type => :enum, :visibility => [:staff], :solr_field => 'enum_2_enum_s')
 AdvancedSearch.define_field(:name => 'user_defined_enum_3', :type => :enum, :visibility => [:staff], :solr_field => 'enum_3_enum_s')
 AdvancedSearch.define_field(:name => 'resource_finding_aid_status', :type => :enum, :visibility => [:staff], :solr_field => 'finding_aid_status')
-AdvancedSearch.define_field(:name => 'file_version_use_statement', :type => :enum, :visibility => [:staff], :solr_field => 'file_version_use_statement_u_ustr')
