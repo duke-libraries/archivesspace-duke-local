@@ -15,6 +15,7 @@ en:
       enum_2_enum_s: Research Center
       enum_3_enum_s: New/Addition
       created_by: Created by
+      collection_management_processing_status_u_ustr: Processing Status
     resource:
       ead_id: EADID
       finding_aid_status: Finding Aid Status
