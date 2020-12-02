@@ -9,19 +9,19 @@ class SearchResultData
 
 # this changes what facets are requested for searches. Display order follows the order in the array. 
  def self.ACCESSION_FACETS
-   ["enum_2_enum_s", "enum_3_enum_s","enum_1_enum_s","acquisition_type", "boolean_1_u_ubool", "boolean_2_u_ubool", "accession_date_year", ]
+   ["enum_2_enum_s", "enum_3_enum_s", "enum_1_enum_s", "acquisition_type", "boolean_1_u_ubool", "boolean_2_u_ubool", "accession_date_year"]
  end
 
  def self.RESOURCE_FACETS
-   ["finding_aid_status","created_by","creators","subjects"]
+   ["finding_aid_status", "created_by", "creators", "subjects"]
  end
  
  def self.SUBJECT_FACETS
-   ["first_term_type","source"]
+   ["first_term_type", "source"]
  end
  
  def self.DIGITAL_OBJECT_FACETS
-   ["publish","digital_object_type"]
+   ["publish", "digital_object_type"]
  end
  
 end
