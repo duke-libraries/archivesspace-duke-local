@@ -21,7 +21,7 @@ en:
       finding_aid_status: Finding Aid Status
       created_by: Created by
     digital_object:
-      file_version_use_statement: File Version Use Statement
+      file_version_use_statement_u_ustr: File Version Use Statement
 
   advanced_search:
     text:
