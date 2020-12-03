@@ -13,7 +13,7 @@ class SearchResultData
  end
 
  def self.RESOURCE_FACETS
-   ["finding_aid_status", "created_by", "creators", "subjects"]
+   ["finding_aid_status", "created_by"]
  end
  
  def self.SUBJECT_FACETS
