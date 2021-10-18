@@ -145,6 +145,7 @@ en:
       RestrictedFragileSpecColl: 3 - Restricted fragile
       InProcessSpecColl: 4 - Restricted in-process
       ColdStorageBrbl: 5 - Other
+      open_no_restrictions: Open with no restrictions
       closed_donor_request: Closed by donor request
       closed_due_to_university_statute: Closed due to university statute (BOT)
       closed_ferpa: Closed due to FERPA
