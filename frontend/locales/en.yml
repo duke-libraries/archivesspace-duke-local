@@ -101,7 +101,7 @@ en:
         <p>The EADID is typically in the format lastnamefirstname.xml or organizationname.xml. Use abbreviations sparingly.</p>
     ead_location_tooltip: |
         <p>The URL for the published EAD file. Please include the trailing slash.</p>
-    ead_location_inline_help: http://library.duke.edu/rubenstein/findingaids/[eadid]/
+    ead_location_inline_help: ARK URL minted during publication process
     finding_aid_title_tooltip: |
         <p>The title for the finding aid associated with this Resource.</p>
         <p>Include collection inclusive dates and capitalize words like 'papers' and 'records' here.</p>
